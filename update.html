@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>employee update page</title>
+    </head>
+    <body>
+        <h1>Welcome to update the employee details</h1>
+        <form action="http://localhost:8000/emp_update" method="POST">
+            <label for="employee_username">employee_username</label>
+            <input type="text" id="employee_username"  name="employee_username" required><br>
+             <label for="txt_mobile_no">mobile_number</label>
+            <input type="text" id="txt_mobile_no" name="mobile_number" required><br>
+
+            <label for="txt_new_number">new_number</label>
+            <input type="text" id="txt_new_number" name="new_number" required><br>
+            <input type="submit" value="update">
+         <br>
+            <h3>If employee not have account please click in the below link to signup</h3><br>
+            <a href="http://localhost:63342/susi_Mongodb/signup.html?_ijt=e664qnpp9fgnehljd4ob7ug528&_ij_reload=RELOAD_ON_SAVE">signup</a>
+         </form>
+    </body>
+</html>
